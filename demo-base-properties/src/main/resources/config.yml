@@ -1,0 +1,10 @@
+config:
+  props:
+    str: String
+    num: 1234
+    flag: true
+    list:
+      - java
+      - spring
+      - mysql
+    map: { key1: value1, key2: value2 }

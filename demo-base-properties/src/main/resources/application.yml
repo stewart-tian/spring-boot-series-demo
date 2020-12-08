@@ -1,0 +1,14 @@
+server:
+  port: 10002
+
+project:
+  name: demo-properties
+
+stewart:
+  project:
+    info: demo-project
+    port: 10002
+
+spring:
+  profiles:
+    active: prod

@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  * @author stewart
  */
-@RestController
+@RestController("/base")
 public class HelloController {
 
     @GetMapping("/hello")

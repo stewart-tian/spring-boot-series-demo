@@ -1,6 +1,6 @@
 # spring-boot-demo-base-hello
 
-> demo-base : spring-root 入门 HelloWorld
+> demo-base-hello : spring-root 入门 HelloWorld
 
 ## 一、parent project
 
@@ -84,4 +84,4 @@
 ## 运行访问
 **运行** : ①直接运行启动类；②通过maven命令 mvn spring-boot:run 
 
-**访问 _localhost:10001/hello?name=Stewart_**
+**访问 _localhost:10001/base/hello?name=Stewart_**

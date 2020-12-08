@@ -11,6 +11,7 @@
 
     <modules>
         <module>demo-base-hello</module>
+        <module>demo-base-properties</module>
     </modules>
 
     <properties>
