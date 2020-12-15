@@ -12,6 +12,7 @@
     <modules>
         <module>demo-base-hello</module>
         <module>demo-base-properties</module>
+        <module>demo-orm-mybatis-001</module>
     </modules>
 
     <properties>
