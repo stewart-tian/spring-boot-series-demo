@@ -81,7 +81,8 @@
     server:
         port: 10001
 
-## 运行访问
-**运行** : ①直接运行启动类；②通过maven命令 mvn spring-boot:run 
+## 三、测试验证
+
+**运行** : ①直接运行启动类；②通过maven命令 mvn spring-boot:run
 
 **访问 _localhost:10001/base/hello?name=Stewart_**
