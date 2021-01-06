@@ -1,4 +1,4 @@
-package com.stewart.orm.jdbc;
+package com.stewart.thymeleaf;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -7,10 +7,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @author stewart
  */
 @SpringBootApplication
-public class DemoJdbc10110Application {
+public class DemoThymeleaf10201Application {
 
     public static void main(String[] args) {
-        SpringApplication.run(DemoJdbc10110Application.class, args);
+        SpringApplication.run(DemoThymeleaf10201Application.class, args);
     }
 
 }

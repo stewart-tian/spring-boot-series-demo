@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>User List</title>
+</head>
+<body>
+<div>
+    <table>
+        <tr th:each="user,item : ${userList}">
+            <td th:text="${user.id}"></td>
+            <td th:text="${user.name}"></td>
+            <td th:if="${user.name == 'tian'}" th:text="田"></td>
+            <td th:if="${user.name == 'java'}" th:text="coder"></td>
+            <td th:unless="${user.name != 'xie'}" th:text="爱"></td>
+            <td th:text="${user.age}"></td>
+            <td th:text="${user.age gt 26 ? '不小了' : '正年轻' }"></td>
+            <td th:switch="${user.sex}">
+                <span th:case="'women'">美</span>
+                <span th:case="'man'">帅</span>
+                <span th:case="*">无</span>
+            </td>
+            <td th:text="${item.index}"></td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>
