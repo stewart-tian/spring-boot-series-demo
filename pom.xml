@@ -12,6 +12,7 @@
     <modules>
         <module>demo-base-hello</module>
         <module>demo-base-properties</module>
+        <module>demo-base-actuator</module>
         <module>demo-orm-mybatis-simple</module>
         <module>demo-orm-jdbctemplate-simple</module>
         <module>demo-web-thymeleaf-simple</module>

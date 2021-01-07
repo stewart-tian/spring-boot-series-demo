@@ -1,0 +1,22 @@
+server:
+  port: 10003
+
+# spring boot 2 actuator默认值开启了info和health两个端点，开启其它端点需要在配置文件中配置
+management:
+  server:
+    # 设置监控端口号
+    port: 10000
+  endpoints:
+    web:
+      exposure:
+        # 开放所有端点
+        include: "*"
+      # 开放的端点访问的根路径
+      base-path: /actuator/demo
+  endpoint:
+    # 开放停用服务端点，post请求
+    shutdown:
+      enabled: true
+    # 显示详细的health信息
+    health:
+      show-details: ALWAYS
