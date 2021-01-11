@@ -2,7 +2,9 @@
 
 > demo-base-actuator : spring boot 应用监控
 
-1.1、引入依赖
+## 一、端点监控 
+
+### 1.1、引入依赖
 
     <dependencies>
         <dependency>
@@ -17,7 +19,7 @@
 
 spring-boot项目引入spring-boot-starter-actuator依赖，默认即开放了info和简单的health端点 默认访问根路径：/actuator
 
-1.2 添加配置
+### 1.2 添加配置
 
 ```yaml
 management:
@@ -35,14 +37,40 @@ management:
     # 开放停用服务端点，post请求
     shutdown:
       enabled: true
-    # 显示详细的health信息
+    # 显示详细的health信息 
     health:
       show-details: ALWAYS
 ```
 
-1.3 验证
+### 1.3 验证
 
 访问 
 http://localhost:10003/actuator/demo    查看开放的端点
 http://localhost:10000/actuator/demo/health     查看应用健康状态
 post 请求 http://localhost:10000/actuator/demo/shutdown 停用应用
+
+
+## 二、端点监控添加用户认证
+
+### 2.1、引入依赖
+
+```xml
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-security</artifactId>
+</dependency>
+```
+
+### 2.2、添加配置
+
+```yaml
+spring:
+  security:
+    user:
+      # 访问登录用户名
+      name: stewart
+      # 密码
+      password: 123456
+```
+
+

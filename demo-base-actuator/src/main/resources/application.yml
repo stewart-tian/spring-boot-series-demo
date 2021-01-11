@@ -20,3 +20,11 @@ management:
     # 显示详细的health信息
     health:
       show-details: ALWAYS
+
+spring:
+  security:
+    user:
+      # 访问登录用户名
+      name: stewart
+      # 密码
+      password: 123456
