@@ -1,6 +1,6 @@
 # spring-boot-demo-orm-jdbctemplate
 
-> demo-orm-jdbctemplate-simple : spring-boot 持久层 jdbctemplate简单使用 
+> demo-orm-jdbctemplate-simple : spring-boot 持久层 jdbctemplate简单使用
 
 ## 一、基础配置
 

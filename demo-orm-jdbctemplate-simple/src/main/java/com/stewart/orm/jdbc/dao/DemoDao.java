@@ -59,9 +59,9 @@ public class DemoDao {
         });
     }
 
-    public Integer getDemoNum(){
+    public Integer getDemoNum() {
         String numSql = "select count(*) from orm_demo";
-        return jdbcTemplate.queryForObject(numSql,Integer.class);
+        return jdbcTemplate.queryForObject(numSql, Integer.class);
     }
 
 }

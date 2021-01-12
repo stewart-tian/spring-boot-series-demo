@@ -49,7 +49,7 @@
 
 ### 1.3、添加对应h5页面
 
-h5页面中需要对html标签添加 xmlns:th="http://www.thymeleaf.org" 
+h5页面中需要对html标签添加 xmlns:th="http://www.thymeleaf.org"
 
 hello.html
 

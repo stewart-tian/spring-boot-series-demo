@@ -43,7 +43,7 @@ public class DemoServiceImpl implements DemoService {
     }
 
     @Override
-    public Integer getDemoNum(){
+    public Integer getDemoNum() {
         return demoDao.getDemoNum();
     }
 }

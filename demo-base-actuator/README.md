@@ -2,7 +2,7 @@
 
 > demo-base-actuator : spring boot 应用监控
 
-## 一、端点监控 
+## 一、端点监控
 
 ### 1.1、引入依赖
 
@@ -44,17 +44,16 @@ management:
 
 ### 1.3 验证
 
-访问 
+访问
 http://localhost:10003/actuator/demo    查看开放的端点
-http://localhost:10000/actuator/demo/health     查看应用健康状态
-post 请求 http://localhost:10000/actuator/demo/shutdown 停用应用
-
+http://localhost:10000/actuator/demo/health     查看应用健康状态 post 请求 http://localhost:10000/actuator/demo/shutdown 停用应用
 
 ## 二、端点监控添加用户认证
 
 ### 2.1、引入依赖
 
 ```xml
+
 <dependency>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-security</artifactId>

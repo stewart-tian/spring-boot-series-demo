@@ -20,7 +20,7 @@ public class HelloController {
     }
 
     @GetMapping("/demo")
-    public String demo(){
+    public String demo() {
         return "Hello";
     }
 
