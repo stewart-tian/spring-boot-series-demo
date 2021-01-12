@@ -29,7 +29,7 @@
 1.2.1、配置文件中添加统一前缀配置参数
 
     stewart:
-        project:
+      project:
         info: demo-project
         port: 10002
 
@@ -105,7 +105,7 @@
           - mysql
         map: { key1: value1, key2: value2 }
 
-1.4.2、添加对yaml配置文件解析工厂类
+1.4.2、spring-boot中@PropertySource，默认不支持yml解析文件，需自己添加对yaml配置文件解析工厂类
 
     public class CustomPropertySourceFactory extends DefaultPropertySourceFactory {
 
