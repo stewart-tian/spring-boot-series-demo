@@ -2,7 +2,7 @@
 
 > demo-orm-jpa-simple : spring-boot 持久层 jpa 简单使用
 
-## jpa配置
+## 一、jpa配置
 
 ### 1.1 引入依赖
 

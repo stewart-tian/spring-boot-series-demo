@@ -13,11 +13,12 @@
         <module>demo-base-hello</module>
         <module>demo-base-properties</module>
         <module>demo-base-actuator</module>
+        <module>demo-base-swagger2</module>
         <module>demo-orm-mybatis-simple</module>
+        <module>demo-orm-mybatis-druid</module>
         <module>demo-orm-jdbctemplate-simple</module>
         <module>demo-orm-jpa-simple</module>
         <module>demo-web-thymeleaf-simple</module>
-        <module>demo-orm-mybatis-druid</module>
     </modules>
 
     <properties>
