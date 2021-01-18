@@ -19,6 +19,7 @@
         <module>demo-orm-jdbctemplate-simple</module>
         <module>demo-orm-jpa-simple</module>
         <module>demo-web-thymeleaf-simple</module>
+        <module>demo-orm-jdbctemplate-multi</module>
     </modules>
 
     <properties>
