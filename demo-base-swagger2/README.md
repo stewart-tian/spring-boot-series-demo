@@ -45,7 +45,7 @@ public class Swagger2Config {
         return new Docket(DocumentationType.SWAGGER_2)
                 .apiInfo(apiInfo())
                 .select()
-                // 为指定报下Controller生成API
+                // 为指定包下Controller生成API
                 .apis(RequestHandlerSelectors.basePackage("com.stewart.base.swagger2.web"))
                 // 为有@Api注解的Controller生成API
                 //.apis(RequestHandlerSelectors.withClassAnnotation(Api.class))
