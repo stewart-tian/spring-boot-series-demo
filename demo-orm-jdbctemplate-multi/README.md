@@ -131,14 +131,8 @@ boot_demo库使用primaryJdbcTemplate，@Autowired使用byName注入
 public class DemoDao {
 
     @Autowired
-    private JdbcTemplate@Component
-
-    public class DemoDao {
-
-        @Autowired
-        private JdbcTemplate primaryJdbcTemplate;
-        ;
-    }
+    private JdbcTemplate primaryJdbcTemplate;
+}
 ```
 
 boot_example库使用secondJdbcTemplate
